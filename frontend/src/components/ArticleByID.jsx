@@ -6,7 +6,7 @@ import { toast } from "react-hot-toast";
 import {
   articlePageWrapper,
   articleHeader,
-  articleCategory,
+  articleCategory, 
   articleMainTitle,
   articleAuthorRow,
   authorInfo,
