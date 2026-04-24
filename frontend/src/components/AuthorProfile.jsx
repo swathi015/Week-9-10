@@ -9,7 +9,7 @@ function AuthorProfile() {
         <NavLink to="articles" className={({ isActive }) => (isActive ? navLinkActiveClass : navLinkClass)}>
           Articles
         </NavLink>
-
+ 
         <NavLink to="write-article" className={({ isActive }) => (isActive ? navLinkActiveClass : navLinkClass)}>
           Write Article
         </NavLink>
