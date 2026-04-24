@@ -9,7 +9,7 @@ Content-Type: application/json
   "password": "User@12345",
   "profileImageUrl": "https://example.com/avatars/user.png"
 }
-
+ 
 ### User Register
 POST http://localhost:4000/user-api/users
 Content-Type: application/json
