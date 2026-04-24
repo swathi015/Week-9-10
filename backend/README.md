@@ -5,7 +5,7 @@
 
 2. Add .gitignore file
 
-3. Create .env file for environment variables & Read data from .env   
+3. Create .env file for environment variables & Read data from .env    
    with "dotenv" module
     npm install dotenv
 
