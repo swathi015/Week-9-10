@@ -5,7 +5,7 @@ function ProtectedRoute({ children, allowedRoles }) {
   //get user login status from store
   const { loading, currentUser, isAuthenticated, logout } = useAuth();
   //loading state
-  if (loading) { 
+  if (loading) {  
     return <p>Loading...</p>;
   }
   //if user not loggedin
