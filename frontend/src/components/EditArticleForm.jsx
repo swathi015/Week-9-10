@@ -11,7 +11,7 @@ import {
   labelClass,
   inputClass,
   submitBtn,
-  errorClass,
+  errorClass, 
   articlePageWrapper,
 } from "../styles/common";
 
