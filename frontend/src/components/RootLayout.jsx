@@ -11,7 +11,7 @@ function RootLayout() {
   useEffect(() => {
     checkAuth();
   }, []);
-
+ 
   // wait until auth check completes
   if (loading) {
     return <p className="text-center mt-10">Loading...</p>;
