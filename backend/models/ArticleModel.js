@@ -3,7 +3,7 @@ import { Schema, model } from "mongoose";
 //Create user comment schema
 const userCommentSchema = new Schema({
   user: {
-    type: Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId, 
     ref: "user",
   },
   comment: {
