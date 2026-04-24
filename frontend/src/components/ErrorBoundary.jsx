@@ -8,7 +8,7 @@ function ErrorBoundary() {
       <p className="text-4xl">{data}</p>
       <p className="text-6xl text-red-400">
         {status}-{statusText}
-      </p>
+      </p> 
     </div>
   );
 }
