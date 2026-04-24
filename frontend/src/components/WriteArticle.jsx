@@ -6,7 +6,7 @@ import { useNavigate } from "react-router";
 
 import {
   formCard,
-  formTitle,
+  formTitle, 
   formGroup,
   labelClass,
   inputClass,
