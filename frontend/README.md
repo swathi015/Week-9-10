@@ -9,7 +9,7 @@
             import toast from "react-hot-toast";
 
             if (resObj.status === 201) {
-                toast.success("Account created successfully");
+                toast.success("Account created successfully"); 
                 navigate("/login");
             }
 
