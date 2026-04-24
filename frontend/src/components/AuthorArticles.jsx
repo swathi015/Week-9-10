@@ -5,7 +5,7 @@ import { useAuth } from "../store/authStore";
 
 import {
   articleCardClass,
-  articleTitle,
+  articleTitle, 
   articleExcerpt,
   articleMeta,
   ghostBtn,
