@@ -7,7 +7,7 @@ import { adminRoute } from "./APIs/AdminAPI.js";
 import { authorRoute } from "./APIs/AuthorAPI.js";
 import { commonRouter } from "./APIs/CommonAPI.js";
 import cors from "cors";
-
+ 
 config(); //process.env
 
 //Create express application
