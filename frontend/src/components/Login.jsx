@@ -7,7 +7,7 @@ import {
   labelClass,
   inputClass,
   submitBtn,
-  errorClass,
+  errorClass, 
   mutedText,
   divider,
   linkClass,
