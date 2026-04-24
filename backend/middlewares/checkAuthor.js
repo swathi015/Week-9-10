@@ -7,7 +7,7 @@ export const checkAuthor = async (req, res, next) => {
   let author = await UserTypeModel.findById(aid);
   //if author not found
   if (!author ) {
-    return res.status(401).json({ message: "Invalid Author" });
+    return res.status(401).json({ message: "Invalid Author" }); 
   }
   //if author found but role is different
   if(author.role!=='AUTHOR'){
