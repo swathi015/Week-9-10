@@ -5,7 +5,7 @@ import {
   navContainerClass,
   navBrandClass,
   navLinksClass,
-  navLinkClass,
+  navLinkClass, 
   navLinkActiveClass,
 } from "../styles/common";
 
