@@ -8,6 +8,7 @@ import { uploadToCloudinary } from "../config/cloudinaryUpload.js";
 
 export const userRoute = exp.Router();
 
+
 //Register user
 userRoute.post("/users", upload.single("profileImageUrl"), async (req, res, next) => {
   let cloudinaryResult;
