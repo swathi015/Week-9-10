@@ -6,6 +6,7 @@ import { verifyToken } from "../middlewares/verifyToken.js";
 export const commonRouter = exp.Router();
 
 //login
+
 commonRouter.post("/login", async (req, res) => {
   //get user cred object
   let userCred = req.body;
