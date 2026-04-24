@@ -2,7 +2,7 @@
 // Theme: Apple Light — white/f5f5f7 background, #1d1d1f text, #0066cc accent
 // Inspired by apple.com — no gradients, no shadows, pure typography & spacing
 
-// ─── Layout ───────────────────────────────────────────
+// ─── Layout ─────────────────────────────────────────── 
 export const pageBackground = "bg-white min-h-screen";
 export const pageWrapper = "max-w-5xl mx-auto px-6 py-16";
 export const section = "mb-14";
