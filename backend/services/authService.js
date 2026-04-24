@@ -6,7 +6,7 @@ config()
 
 //register function
 export const register = async (userObj) => {
-  //Create document
+  //Create document 
   const userDoc = new UserTypeModel(userObj);
   //validate for emprty passwords
   await userDoc.validate();
