@@ -6,6 +6,7 @@ export const uploadToCloudinary = (buffer) => {
       if (err) return reject(err);
       resolve(result);
     });
+    
     stream.end(buffer);
   });
 };
