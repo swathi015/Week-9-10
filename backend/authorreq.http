@@ -9,7 +9,7 @@ Content-Type: application/json
   "password": "Author@12345",
   "profileImageUrl": "https://example.com/avatars/author.png"
 }
-
+ 
 
 ### Author Register
 POST http://localhost:4000/author-api/users
